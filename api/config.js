@@ -7,8 +7,8 @@ export default function handler(req, res) {
   res.setHeader('Content-Type', 'application/javascript; charset=utf-8');
   res.setHeader('Cache-Control', 'no-store, max-age=0');
 
-  const supabaseUrl = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://bxabtxwkjvvamsgyymna.supabase.co';
-  const supabaseAnonKey = process.env.SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'sb_publishable_ZbbJW-9hLZOD4HtAX8BOhg_1wfU_5tw';
+  const supabaseUrl = process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL || 'https://dllhavbwtbevgdvjkrfr.supabase.co';
+  const supabaseAnonKey = process.env.SUPABASE_ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY || 'sb_publishable_1prA2nlOODyAMz0hw1PzbQ_EP6muX5C';
 
   const scriptBody = `
     window.EDUKAS_SUPABASE_URL = ${JSON.stringify(supabaseUrl)};
