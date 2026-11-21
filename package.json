@@ -1,0 +1,8 @@
+{
+  "name": "edukas-sekolah",
+  "version": "4.3.2",
+  "private": true,
+  "scripts": {
+    "build": "node -e \"console.log('EduKas static frontend ready for Vercel')\""
+  }
+}
